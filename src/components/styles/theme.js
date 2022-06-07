@@ -15,6 +15,12 @@ const theme = {
         lineHeight: '34px'
       },
     },
+    sectionName: {
+      desktop: {
+        fontSize: '44px',
+        lineHeight: '52px'
+      },
+    },
     siteHeader: {
       desktop: {
         fontSize: '48px',
@@ -55,6 +61,12 @@ const theme = {
       desktop: {
         fontSize: '16px',
         lineHeight: '25.6px',
+      }
+    },
+    author: {
+      desktop: {
+        fontSize: '16px',
+        lineHeight: '19px',
       }
     },
     footerText: {

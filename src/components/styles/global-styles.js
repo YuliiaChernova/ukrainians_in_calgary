@@ -4,9 +4,9 @@ export default createGlobalStyle`
   body {
     overflow-x: hidden;
     font-family: Noto Serif, Sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 34px;
     letter-spacing: .62px;
     margin: 0;
     box-sizing: border-box;

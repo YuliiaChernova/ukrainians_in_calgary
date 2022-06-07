@@ -25,10 +25,14 @@
     "gatsby-source-filesystem": "^4.15.0",
     "gatsby-source-wordpress": "^6.15.1",
     "gatsby-transformer-sharp": "^4.15.1",
+    "html-react-parser": "^1.4.14",
     "normalize.css": "^8.0.1",
+    "npm": "^8.12.1",
+    "parser": "^0.1.4",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-icons": "^4.4.0",
     "styled-components": "^5.3.5"
   }
 }
