@@ -1,5 +1,20 @@
 /* global exports */
 
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+  if (stage === "build-html" || stage === "develop-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /@react-icons\/all-files/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    })
+  }
+};
+
 exports.createPages = async ({ actions, graphql }) => {
   
   const { createPage } = actions;
